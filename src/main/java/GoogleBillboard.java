@@ -15,8 +15,8 @@ if (isPrime(dNum) == true){
 	
 
 	//Finish this function
-	public boolean isPrime(double d){
-		  if(dNum < 2)
+public boolean isPrime(double dNum){
+ if(dNum < 2)
   return false;
   for(int i = 2; i <= Math.sqrt(dNum); i++)
   if(dNum % i == 0)
